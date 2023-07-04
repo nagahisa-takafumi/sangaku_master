@@ -25,7 +25,20 @@ npm install
 npm run dev
 ```
 
-3. 起動する
+3. .envの作成
+
+まず、プロジェクトルートディレクトリに存在する`.env.example`をコピーして`.env`を作成します。
+その後、以下の内容をデータベースの設定に合わせて書き換えてください。
+データベースの設定がわからない方は担当者まで質問してください。
+
+```
+DB_PORT=3306
+DB_DATABASE=laravel
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+4. 起動する
 
 ```
 php artisan serve
