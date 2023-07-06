@@ -28,4 +28,12 @@ class Sake extends Model
         "SK_acidity",
         "SK_specific_gravity",
     ];
+
+    public function brewery(){
+        return $this->hasOne(Brewery::class, "B_id", "SK_brewery_id");
+    }
+
+    public function sake_type(){
+        return $this->hasOne(SakeType::class, "SK_type_id", "SKT_id");
+    }
 }

@@ -14,22 +14,22 @@
         </div>
     @endif
     <div class="w-100 mx-auto mt-5 text-end">
-        <a href="" class="btn btn-dark"><i class="fas fa-folder-plus"></i> 新規酒分類登録</a>
+        <a href="" class="btn btn-dark"><i class="fas fa-folder-plus"></i> 新規陣登録</a>
     </div>
     <table class="table table-striped w-100 mx-auto mt-3 table-bordered">
         <tr class="table-dark">
             <th class="col-2 align-middle text-center">id</th>
-            <th class="col-10 align-middle text-center">タイプ</th>
+            <th class="col-10 align-middle text-center">陣名</th>
         </tr>
-        @foreach($sakeTypes as $sakeType)
+        @foreach($camps as $camp)
             <tr>
-                <td class="col-2 align-middle text-center">{{ $sakeType->SKT_id }}</td>
-                <td class="col-10 align-middle text-center">{{ $sakeType->SKT_name }}</td>
+                <td class="col-2 align-middle text-center">{{ $camp->C_id }}</td>
+                <td class="col-10 align-middle text-center">{{ $camp->C_name }}</td>
             </tr>
         @endforeach
     </table>
     <div class="d-flex justify-content-center mt-5">
-        {{ $sakeTypes->appends(request()->query())->links('components.pagenate.bottom') }}
+        {{ $camps->appends(request()->query())->links('components.pagenate.bottom') }}
     </div>
 </div>
 <!-- /コンテンツ -->
