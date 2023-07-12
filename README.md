@@ -60,4 +60,4 @@ php artisan db:seed --class=TableBreweriesSeeder
 php artisan db:seed --class=TableSakeTypesSeeder
 //酒テーブル
 php artisan db:seed --class=TableSakesSeeder
-```
+```# video_de_riddle

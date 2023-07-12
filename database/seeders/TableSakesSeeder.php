@@ -20,7 +20,7 @@ class TableSakesSeeder extends Seeder
                 "SK_brewery_id" => 1,
                 "SK_type_id" => 1,
                 "SK_alcohol" => 20,
-                "SK_img_file_path" => "sample1.png",
+                "SK_img_file_path" => "sample1.jpg",
                 "SK_tasting" => 1,
                 "SK_description" => "やわらかな口当たりと品の良い甘み、スッキリとしたキレのよい後味が特長。契約栽培米を含む上越産米を使用。五百万石を箱麹法で製麴し、掛米にはコシイブキと五百万石を使用。",
                 "SK_online_site_url" => "https://kajiyanet.com/products/settyubai-futsuu",
