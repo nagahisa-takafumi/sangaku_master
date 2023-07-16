@@ -29,13 +29,9 @@
             "src": "/(.*)",
             "dest": "/api/index.php"
         },
-        {
-            "src": "/public/css/(.*)",
-            "dest": "https://sangaku-master.vercel.app/css/(.*)"
-        },
-        {
-            "dest": "/public/css/(.*)",
-            "src": "https://sangaku-master.vercel.app/css/(.*)"
+        { 
+            "src": "/(css|js)/(.*)$",
+            "dest": "/api/assets.php?type=$1&file=$2"
         }
     ],
     "env": {
