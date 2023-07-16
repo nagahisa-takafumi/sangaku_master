@@ -28,17 +28,8 @@
         {
             "src": "/(.*)",
             "dest": "/api/index.php"
-        }
-    ],
-    "roads": [
-        {
-            "src": "/(css|js|img)/(.*)",
-            "dest": "public/$1/$2"
         },
-        {
-            "src": "/(.*)",
-            "dest": "/api/index.php"
-        }
+        { "src": "/build/(.*)", "dest": "/public/build/" }
     ],
     "env": {
         "APP_NAME": "Laravel Vercel",
