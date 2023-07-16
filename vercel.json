@@ -30,6 +30,14 @@
             "dest": "/public/img/sake/$1"
         },
         {
+            "src": "/img/brewery/(.*)",
+            "dest": "/public/img/brewery/$1"
+        },
+        {
+            "src": "/css/(.*)",
+            "dest": "/public/css/$1"
+        },
+        {
             "src": "/(.*)",
             "dest": "/api/index.php"
         }
