@@ -14,7 +14,7 @@
         </div>
     @endif
     <div class="w-100 mx-auto mt-5 text-end">
-        <a href="" class="btn btn-dark"><i class="fas fa-folder-plus"></i> 新規陣登録</a>
+        <a href="{{ route('camp.create') }}" class="btn btn-dark"><i class="fas fa-folder-plus"></i> 新規陣登録</a>
     </div>
     <table class="table table-striped w-100 mx-auto mt-3 table-bordered">
         <tr class="table-dark">

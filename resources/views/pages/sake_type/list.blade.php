@@ -14,7 +14,7 @@
         </div>
     @endif
     <div class="w-100 mx-auto mt-5 text-end">
-        <a href="" class="btn btn-dark"><i class="fas fa-folder-plus"></i> 新規酒分類登録</a>
+        <a href="{{ route('sake_type.create') }}" class="btn btn-dark"><i class="fas fa-folder-plus"></i> 新規酒分類登録</a>
     </div>
     <table class="table table-striped w-100 mx-auto mt-3 table-bordered">
         <tr class="table-dark">

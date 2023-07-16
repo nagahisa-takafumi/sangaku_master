@@ -21,6 +21,7 @@ class Brewery extends Model
         "B_address",
         "B_img_file_path",
         "B_url",
+        "B_delete_flag"
     ];
 
     public function place(){
