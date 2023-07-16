@@ -14,10 +14,6 @@
     ],
     "routes": [
         {
-            "src": "/build(.*)",
-            "dest": "/public/assets/ "
-        },
-        {
             "src": "/build/assets/(.*)",
             "dest": "/public/build/assets/$1"
         },
@@ -32,6 +28,14 @@
         {
             "src": "/(.*)",
             "dest": "/api/index.php"
+        },
+        {
+            "src": "/public/css/(.*)",
+            "dest": "https://sangaku-master.vercel.app/css/(.*)"
+        },
+        {
+            "dest": "/public/css/(.*)",
+            "src": "https://sangaku-master.vercel.app/css/(.*)"
         }
     ],
     "env": {
