@@ -30,8 +30,8 @@
             "dest": "/api/index.php"
         },
         {
-            "src": "/css/(.*)",
-            "dest": "/public/css/(.*)"
+            "src": "/css/common.css",
+            "dest": "/public/css/common.css"
         }
     ],
     "env": {
