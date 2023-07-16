@@ -116,7 +116,7 @@
                             @endif　
                         </div>
                     </div>
-                    <a href="{{ route('place.list') }}" class="btn btn-secondary"><i class="fas fa-chevron-circle-left"></i> 店舗情報一覧へ戻る</a>　
+                    <a href="{{ route('brewery.list') }}" class="btn btn-secondary"><i class="fas fa-chevron-circle-left"></i> 酒造所情報一覧へ戻る</a>　
                     <button type="submit" class="btn btn-dark" id="formButton"><i class="fas fa-plus-circle"></i> 店舗情報を新規追加</button>
                 </form>
             </div>

@@ -26,8 +26,8 @@
                             @endif　
                         </div>
                     </div>
-                    <a href="{{ route('sake_type.list') }}" class="btn btn-secondary"><i class="fas fa-chevron-circle-left"></i> 顧客情報一覧へ戻る</a>　
-                    <button type="submit" class="btn btn-dark" id="formButton"><i class="fas fa-plus-circle"></i> 案件を新規追加</button>
+                    <a href="{{ route('sake_type.list') }}" class="btn btn-secondary"><i class="fas fa-chevron-circle-left"></i> 酒分類情報一覧へ戻る</a>　
+                    <button type="submit" class="btn btn-dark" id="formButton"><i class="fas fa-plus-circle"></i> 酒分類を新規追加</button>
                 </form>
             </div>
         </div>
