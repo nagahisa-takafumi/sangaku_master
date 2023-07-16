@@ -34,8 +34,8 @@
             "dest": "/public/img/brewery/$1"
         },
         {
-            "src": "/img/(.*)",
-            "dest": "/public/img/$1"
+            "src": "/img/logo_transparent.png",
+            "dest": "/public/img/logo_transparent.png"
         },
         {
             "src": "/css/(.*)",
