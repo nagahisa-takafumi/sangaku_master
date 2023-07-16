@@ -11,23 +11,23 @@
 <div class="container">
     <div class="col-md-8 mt-5 w-75 mx-auto">
         <div class="card">
-            <div class="card-header">新規酒分類登録</div>
+            <div class="card-header">新規陣登録</div>
             <div class="card-body">
-                <form method="post" action="{{ route('sake_type.create') }}">
+                <form method="post" action="{{ route('camp.create') }}">
                     @csrf
                     <div class="mb-3">
-                        <label for="SKT_name" class="form-label">酒分類名　<span class="badge bg-danger">必須</span></label>
+                        <label for="C_name" class="form-label">陣名　<span class="badge bg-danger">必須</span></label>
                         <div class="input-group">
-                            <input type="text" class="form-control" id="SKT_name" name="SKT_name" value="{{old('SKT_name')}}">
+                            <input type="text" class="form-control" id="C_name" name="C_name" value="{{old('C_name')}}">
                         </div>
                         <div id="SKTNameError" class="form-text text-danger">
-                            @if ($errors->has('SKT_name'))
-                                {{$errors->first('SKT_name')}}
+                            @if ($errors->has('C_name'))
+                                {{$errors->first('C_name')}}
                             @endif　
                         </div>
                     </div>
-                    <a href="{{ route('sake_type.list') }}" class="btn btn-secondary"><i class="fas fa-chevron-circle-left"></i> 顧客情報一覧へ戻る</a>　
-                    <button type="submit" class="btn btn-dark" id="formButton"><i class="fas fa-plus-circle"></i> 案件を新規追加</button>
+                    <a href="{{ route('camp.list') }}" class="btn btn-secondary"><i class="fas fa-chevron-circle-left"></i> 陣一覧へ戻る</a>　
+                    <button type="submit" class="btn btn-dark" id="formButton"><i class="fas fa-plus-circle"></i> 陣を新規追加</button>
                 </form>
             </div>
         </div>
