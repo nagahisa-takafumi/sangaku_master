@@ -32,7 +32,7 @@
     ],
     "roads": [
         {
-            "src": "/(css|js)/(.*)",
+            "src": "/(css|js|img)/(.*)",
             "dest": "public/$1/$2"
         },
         {
