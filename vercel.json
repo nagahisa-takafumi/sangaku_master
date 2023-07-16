@@ -26,12 +26,12 @@
             "dest": "/public/robots.txt"
         },
         {
-            "src": "/(.*)",
-            "dest": "/api/index.php"
-        },
-        {
             "src": "/img/sake/(.*)",
             "dest": "/public/img/sake/$1"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "/api/index.php"
         }
     ],
     "env": {
