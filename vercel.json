@@ -34,10 +34,6 @@
             "dest": "/public/img/brewery/$1"
         },
         {
-            "src": "/(.*)",
-            "dest": "/public/$1"
-        },
-        {
             "src": "/css/(.*)",
             "dest": "/public/css/$1"
         },
